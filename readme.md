@@ -1,26 +1,26 @@
-# Comparing Miami & Baltimore on graduation rate, employment rate, and-poverty rate
+# Visualization of COVID-19 pandemic the US over time
+
+How can we visualize and better understand the overall toll of the COVID-19 pandemic on US counties or county equivalents
+
+## Business Question 
+How can we, as leaders of the country, be able to look at the amount of cases of COVID-19 overtime in the US and understand to what degree it is spreading and impacting communites?
+
+## Data Analysis
+The Google Colaboratory Notebook was used to conduct this analysis. First, four packages were loaded. Then, the data was imported by connecting the source, Johns Hopkins Data. The data was then cleaned to allow for both a heat denisty map and bubble map and finished with a color denisty scale which changed by color there was a higher concentration of cases. This allowed a better visualization of the spread of COVID-19. 
+
+The following is the graph of the data collection.*
+![](profssor_shimano_map.gif)
 
 
-This data analysis compared Baltimore City, MD to Miami,FL to allow people to compare Gradation Rate, Employment Rates, and the Poverty Rate
-The method used to anaylze the data was by using the VLOOKUP function.  
-The names of all the cities are listed in the left most column followed by the rest of the variables in the data set
-The Vlookup allows you to pick the city desired to see the employment rate, graduation rate, and poverty rate.
-There are 2 VLOOKUP tables side by side which can allow you to see 2 sets of data at the same time for analysis.
-A graph was generated from the VLOOKUP table to compare the two cites.
-The cities can be manipulated to gather new insights if need be. 
+*Conducted by Professor Shimano as the data was not full able to compile 
 
-The link to the opportunity atlas site used for data collection is: https://www.opportunityatlas.org/ 
+## Business Answer 
 
-The link to the excel file: https://drive.google.com/file/d/1mrUX1mNt-7lI1IezU7zZSyEc3iveYsjN/view?usp=sharing
 
-## Findings
-What was found was that Mimai has a higher graduation rate, higher employment rate and lower poverty rate than that of Baltimore. 
-The reason behind why this might be possible is becuase the average income in the area is higher which can lead to this difference. Also, several supportive services might be better in south Florida resulting in the gap. Some policies that might need to be implemented in Baltimore to close the gap are to develop policy to drive more students to highshchools to increase the graduation rate. By doing so, this can help to increase employement rate and decrease the poverty rate.
-
-The following is the graph of the data collection.
 
 ## Error
+The data was unable to complie shown in Google Colaboratory Notebook. Not sure what the syntax error could have been from. This happend when I was trying to add the optional part however, even if I did not include it, the error still persisited. 
 ![](compile_error.png)
-![](profssor_shimano_map.gif)
+
 
 
