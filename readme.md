@@ -21,4 +21,6 @@ The following is the graph of the data collection.
 
 ## Error
 ![](compile_error.png)
+![](profssor_shimano_map.gif)
+
 
